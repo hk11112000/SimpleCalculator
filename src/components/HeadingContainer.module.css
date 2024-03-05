@@ -1,0 +1,22 @@
+.headingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: white; */
+    height: fit-content;
+    padding: 20px  13px 0px 13px;
+    width: 100%;
+    color: #fffb00;
+
+    
+}
+
+.headingContainer h4{
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+.threeDots{
+    font-size: 10px;
+    cursor: pointer;  
+}

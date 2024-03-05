@@ -1,0 +1,27 @@
+.contentContainer{
+    width: 100%;
+    /* background: white; */
+    height: auto;
+    min-height: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    
+    
+
+}
+
+.contentContainer h6{
+    color: rgba(250, 250, 250, 0.40);
+    font-size: 15px;
+}
+.contentContainer p{
+    color: #fffb00;
+    font-size: 30px;
+    word-wrap: break-word;
+    word-break: break-all;
+    
+}

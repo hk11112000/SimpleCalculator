@@ -1,0 +1,24 @@
+.buttonContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 250px;
+    color: #6000af;
+    gap: 2px 2px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 133px 0px, rgba(255, 255, 255, 0.12) 0px 0px 30px, rgba(255, 255, 255, 0.50) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 22px 33px, rgba(0, 0, 0, 0.09) 0px 0px 0px
+}
+.buttonContainer button{
+    color: #fffb00;
+    border: 0;
+    background-color: #1e1e1e;
+    transition: all ease 0.3ms;
+    font-size: 15px;
+}
+.span2{
+    grid-column: span 2;
+}
+.buttonContainer button:hover,.buttonContainer button:focus{
+    color: #1e1e1e;
+    background-color: #fffb00c9;
+    
+
+}
